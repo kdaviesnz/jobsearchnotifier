@@ -10,11 +10,8 @@ $ composer require kdaviesnz/jobsearchnotifier
 
 ## Usage
 
-``` php
-       $jsn = new \kdaviesnz\jobsearchnotifier\JobSearchNotifier(array("php", "javascript", "wordpress"));
-
-       $jsn->sendMail("me@example.com");
-
+```
+See tests/cron.php
 ```
 
 ## Change log

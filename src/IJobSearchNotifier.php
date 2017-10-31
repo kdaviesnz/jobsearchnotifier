@@ -7,7 +7,9 @@ use GuzzleHttp\Client;
 
 interface IJobSearchNotifier
 {
-    public function getJobs():array;
-    public function fetch(string $keyphrase, Client $client):array;
+    public function getFreelancerJobs():array;
+    public function fetchFreelancerProjects(string $keyphrase, Client $client):array;
     public function sendMail(string $email);
+    public function getUpworkJobs();
+    public function getJobs();
 }
